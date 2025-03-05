@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mashi Radio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-top-containter">
+            <div class="nav-item left">
+                <a href="about.html">
+                    About
+                </a>
+            </div>
+            <div class="nav-item right">Archive</div>
+        </div>
+        <div class="nav-bottom-containter">
+            <div class="nav-item left">
+                Next Session in <span id="countdown"></span> at
+                <a href="https://www.meetfrenkie.com/" target="_blank">Frenkie</a> Hoofddorp
+            </div>
+            <div class="nav-item right">Bruut 99 — Millean. — WEDAMZ</div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="logo-container">
+            <img class="logo-item" src="./logo/MashiRadio-Logo.svg" alt="MashiRadio-Logo">
+        </div>
+
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="./video/BG-Video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="overlay"></div>
+        </div>
+    </main>
+
+    <script src="./js/countdown.js"></script>
+
+</body>
+
+</html>
